@@ -5,8 +5,18 @@
     <title>Sports Star App</title>
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <script src="js/app.js" charset="utf-8"></script>
+
+    <style>
+    @font-face {
+      font-family: RedZone;
+      src: url(css/images/RedZone.ttf);
+    }
+    a{  color: white;}
+    </style>
+
   </head>
   <body>
+    <h1>Sports Super Stars</h1>
     <form id="new-star-form">
       <div id="form-wrapper">
         <div class="form-star">
@@ -27,12 +37,12 @@
   <input type="radio" name="sport" value="Sumo Wrestling"> Sumo Wrestling<br>
 
       </div>
-      <input id= "button" type="submit" value="save"/>
+      <input id= "button" type="submit" value="Save"/>
     </form>
 
     <button id="delete-all">Delete All</button>
 
-    <h1>Sport Stars</h1>
+    <h1 class = "sports-heading">Sport Stars</h1>
     <div id="sport-stars"></div>
   </body>
 </html>

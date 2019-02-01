@@ -1,6 +1,59 @@
 body {
-  font-family: Palatino;
+  font-family: RedZone, Palatino;
+  font-size: 10px;
+  background-image: url('images/sports-field.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+h1 {
+  background-color: red;
+   text-shadow: 2px 2px #FF0000;
+  color: #C0C0C0;
+}
+
+#new-star-form {
+  display: grid;
+  height: 18rem;
+  width: 30rem;
+  margin: 3rem;
+  background-color: rgba(255,255,255,0.5);
+}
+
+#form-wrapper {
+  margin: 1rem;
+justify-content: space-around;
+}
+
+.primary {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.radio {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  justify-content: left;
+}
+
+#button {
+  margin-top: 2rem;
+}
+
+#delete-all {
+  margin-left: 3rem;
+}
+
+
+.sports-heading {
+  margin-top: 2rem;
+  justify-content: flex-end;
+  font-size: 24px;
+}
+
+
 
 #sport-stars {
   display: flex;
@@ -8,18 +61,34 @@ body {
   justify-content: space-around;
 }
 
-
+/* below is the styling for the cards that are produced  */
 .star {
-  font-family: fantasy;
-  width: 30rem;
-  height: 15rem;
+  width: 10rem;
+  height: 8rem;
   margin-bottom: 10px;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
   /* box-shadow: 0 2px 4px 0 rgba(0,0,0,0.9); */
-  background: rgba(0,0,0,0.5);
+  background-image: url('images/sports.jpeg');
+  opacity: 0.8;
   transition: 0.3s;
   border-radius: 5px;
+}
 
+.name {
+  font-family: Palatino;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.team {
+  font-family: Palatino;
+  font-size: 1.2em;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
 }
