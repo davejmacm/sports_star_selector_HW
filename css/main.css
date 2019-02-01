@@ -13,7 +13,7 @@ h1 {
 }
 
 #new-star-form {
-  display: grid;
+  display: flex;
   height: 18rem;
   width: 30rem;
   margin: 3rem;
@@ -63,32 +63,46 @@ justify-content: space-around;
 
 /* below is the styling for the cards that are produced  */
 .star {
-  width: 10rem;
-  height: 8rem;
+  width: 12rem;
+  height: 10rem;
   margin-bottom: 10px;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
   /* box-shadow: 0 2px 4px 0 rgba(0,0,0,0.9); */
   background-image: url('images/sports.jpeg');
-  opacity: 0.8;
+  opacity: .8;
   transition: 0.3s;
   border-radius: 5px;
 }
 
 .name {
   font-family: Palatino;
-  color: black;
+  font-size: 20px;
+  color: red;
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
+  text-shadow: 1px 1px #ffffff;
 }
 
 .team {
   font-family: Palatino;
-  font-size: 1.2em;
-  color: black;
+  font-size: 1.6em;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0rem;
+  text-shadow: 1px 1px #C0C0C0;
+}
+
+.sport {
+  font-family: Palatino;
+  font-size: 1.6em;
+  color: red;
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
+  margin-left: .5rem;
+  text-shadow: 1px 1px #C0C0C0;
 }
