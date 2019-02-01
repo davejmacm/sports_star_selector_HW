@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Reading List App</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/app.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <form id="new-star-form">
+      <div id="form-wrapper">
+        <div class="form-star">
+          <label for="name" class="primary">Name:</label>
+          <input type="text" id="name" required/>
+        </div>
+
+        <div class="form-star">
+          <label for="team" class="primary">Team:</label>
+          <input type="text" id="team" required/>
+        </div>
+
+        <!-- <div class="form-star">
+          <label for="category" class="primary">Category</label>
+          <select id="category">
+            <option value="" disabled selected></option>
+            <option value="Book">Book</option>
+            <option value="Article">Article</option>
+            <option value="Blog Post">Blog Post</option>
+          </select>
+        </div> -->
+        <div class = "sport">
+          <label for="sport" class="radio"> Sport:</label>
+
+  <input type="radio" name="status" value="nfl"> NFL<br>
+  <input type="radio" name="status" value="rugby"> Rugby<br>
+  <input type="radio" name="status" value="sumo"> Sumo Wrestling<br>
+
+      </div>
+      <input id= "button" type="submit" value="save"/>
+    </form>
+
+    <h1>Sport Stars</h1>
+    <div id="sport-stars"></div>
+  </body>
+</html>

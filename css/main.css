@@ -1,0 +1,25 @@
+body {
+  font-family: Palatino;
+}
+
+#reading-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+
+.book {
+  font-family: fantasy;
+  width: 30rem;
+  height: 15rem;
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  /* box-shadow: 0 2px 4px 0 rgba(0,0,0,0.9); */
+  background: rgba(0,0,0,0.5);
+  transition: 0.3s;
+  border-radius: 5px;
+
+}
