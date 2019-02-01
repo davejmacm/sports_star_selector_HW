@@ -50,7 +50,7 @@ justify-content: space-around;
 .sports-heading {
   margin-top: 2rem;
   justify-content: flex-end;
-  font-size: 24px;
+  font-size: 24px;      
 }
 
 
@@ -58,6 +58,7 @@ justify-content: space-around;
 #sport-stars {
   display: flex;
   flex-flow: row wrap;
+  width: 60rem;
   justify-content: space-around;
 }
 
@@ -65,7 +66,7 @@ justify-content: space-around;
 .star {
   width: 12rem;
   height: 10rem;
-  margin-bottom: 10px;
+  margin: 10px;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
@@ -77,32 +78,32 @@ justify-content: space-around;
 }
 
 .name {
-  font-family: Palatino;
-  font-size: 20px;
+  /* font-family: Palatino; */
+  font-size: 9px;
   color: red;
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
-  text-shadow: 1px 1px #ffffff;
+  text-shadow: 2px 2px 1px #ffffff;
 }
 
 .team {
-  font-family: Palatino;
-  font-size: 1.6em;
+  /* font-family: Palatino; */
+  font-size: 9px;
   color: red;
   display: flex;
   flex-direction: column;
   margin-top: 0rem;
-  text-shadow: 1px 1px #C0C0C0;
+  text-shadow: 2px 2px 1px #C0C0C0;
 }
 
 .sport {
-  font-family: Palatino;
-  font-size: 1.6em;
+  /* font-family: Palatino; */
+  font-size: 9px;
   color: red;
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
   margin-left: .5rem;
-  text-shadow: 1px 1px #C0C0C0;
+  text-shadow: 2px 2px 1px #C0C0C0;
 }
