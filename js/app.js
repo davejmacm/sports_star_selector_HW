@@ -5,9 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
   console.log("i'm going to save");
   form.addEventListener('submit', handleSubmit);
 
-  // const title = document.querySelector('#title');
-  // title.addEventListener('input',handleTitle);
-
 
 });
 
@@ -43,5 +40,6 @@ const handleSubmit = function(event) {
   newStarItem.appendChild(newNameItem);
   newStarItem.appendChild(newTeamItem);
   newStarItem.appendChild(newSportItem);
-  newStar.appendChild(newBookItem);
+  newStar.appendChild(newStarItem);
+    event.target.reset();
 }
