@@ -5,6 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
   console.log("i'm going to save");
   form.addEventListener('submit', handleSubmit);
 
+  const deleteAllButton = document.querySelector('#delete-all');
+  deleteAllButton.addEventListener('click', handleDelete);
+
 
 });
 
@@ -35,11 +38,14 @@ const handleSubmit = function(event) {
       newSportItem.classList.add('sport');
       newSportItem.textContent=`Sport: ${this.sport.value}`;
 
-
-
   newStarItem.appendChild(newNameItem);
   newStarItem.appendChild(newTeamItem);
   newStarItem.appendChild(newSportItem);
   newStar.appendChild(newStarItem);
     event.target.reset();
+
+}
+  const handleDelete = function (event) {
+  const sportStars = document.querySelector('#sport-stars');
+  sportStars.innerHTML = '';
 }
